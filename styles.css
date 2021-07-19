@@ -7,3 +7,44 @@
 .main-text {
   color: darkslateblue;
 }
+
+.julio-article {
+  height: 120vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.julio-article__gif {
+  width: 500px;
+  height: auto;
+}
+
+.google-login {
+  width: 100vw;
+  background-color: yellow;
+  color: red;
+}
+
+img {
+  width: 25vw;
+  box-shadow: 10px 10px 5px #aaa;
+  transition: transform 0.3s;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0px 50px;
+}
+
+.text {
+  font-size: 20px;
+  padding: 0px 10px;
+}
