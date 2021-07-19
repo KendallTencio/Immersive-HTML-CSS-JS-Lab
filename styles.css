@@ -1,3 +1,13 @@
+.heading1 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: darkgrey;
+}
+
+.main-text {
+  color: darkslateblue;
+}
+
 .julio-article {
   height: 120vh;
   display: flex;
