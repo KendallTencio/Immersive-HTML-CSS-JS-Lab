@@ -1,3 +1,35 @@
+body {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.google-login-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.google-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: 1px solid #e6e6e6;
+  padding: 0.5rem 2rem;
+  color: #787878;
+  position: relative;
+  top: 0px;
+  transition: all 0.1s ease-in-out;
+  cursor: pointer;
+}
+
+.google-login .google-login__google {
+  margin: 0 0.4rem;
+}
+
+.google-login:hover {
+  top: -3px;
+  box-shadow: rgb(80 80 80 / 15%) 0px 5px 15px;
+}
+
 .heading1 {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
@@ -21,7 +53,7 @@
   height: auto;
 }
 
-.google-login {
+.google-login--julio {
   width: 100vw;
   background-color: yellow;
   color: red;
